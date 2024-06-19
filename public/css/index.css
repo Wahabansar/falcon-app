@@ -83,7 +83,7 @@ img.social-icon {
 }
 
 .main-hero-banner {
-  background: url("../public/assets/hero-bg.png");
+  background: url("./../assets/hero-bg.png");
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -358,7 +358,7 @@ input.form-fields::placeholder {
 /* choose-section start */
 
 .choose-section {
-  background: url("../public/assets/choose-bg.png");
+  background: url("./../assets/choose-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -460,7 +460,7 @@ input.form-fields::placeholder {
 /* footer start */
 
 .footer-section {
-  background: url("../public/assets/footer-bg.png");
+  background: url("./../assets/footer-bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -600,7 +600,7 @@ hr.footer-line {
     line-height: auto;
   }
   .main-hero-banner {
-    background: url("../public/assets/mbl-hero-bg.png");
+    background: url("./../assets/mbl-hero-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
