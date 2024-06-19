@@ -664,6 +664,9 @@ hr.footer-line {
   .footer-menu {
     font-size: 16px;
   }
+  .submit-btn-form {
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 767px) {
   .form-tabs-wrapper {

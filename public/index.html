@@ -181,11 +181,15 @@
         <div class="container">
           <div class="form-fields-wraper">
             <div class="form-tabs-wrapper mb-4">
-              <button class="one-way-btn active">One Way</button>
-              <button class="one-way-btn">One Way</button>
+              <button id="one-way-btn" class="one-way-btn active">
+                One Way
+              </button>
+              <button id="round-trip-btn" class="one-way-btn">
+                Round Trip
+              </button>
             </div>
             <div class="container px-0 px-md-5">
-              <form>
+              <form id="one-way">
                 <div class="row row-cols-1 row-cols-md-2 gx-4 gy-4">
                   <div class="col">
                     <label for="" class="form-input-lable">Pick - up</label>
@@ -276,6 +280,171 @@
                       <img src="./assets/arrow.svg" alt="" />
                     </span>
                   </button>
+                </div>
+              </form>
+              <form id="round-trip" class="d-none">
+                <div class="row row-cols-1 row-cols-md-2 gx-4 gy-4">
+                  <div class="col">
+                    <label for="" class="form-input-lable">Pick - up</label>
+                    <div class="input-wrapper">
+                      <input
+                        type="text"
+                        placeholder="Enter pickup location"
+                        class="form-fields"
+                      />
+                      <img
+                        src="./assets/location.svg"
+                        alt=""
+                        class="input-field-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <label for="" class="form-input-lable"
+                      >Return Pick - up</label
+                    >
+                    <div class="input-wrapper">
+                      <input
+                        type="text"
+                        placeholder="Enter pickup location"
+                        class="form-fields"
+                      />
+                      <img
+                        src="./assets/location.svg"
+                        alt=""
+                        class="input-field-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <label for="" class="form-input-lable">Drop Off</label>
+                    <div class="input-wrapper">
+                      <input
+                        type="text"
+                        placeholder="Enter your drop-off"
+                        class="form-fields"
+                      />
+                      <img
+                        src="./assets/location.svg"
+                        alt=""
+                        class="input-field-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <label for="" class="form-input-lable"
+                      >Return Drop Off</label
+                    >
+                    <div class="input-wrapper">
+                      <input
+                        type="text"
+                        placeholder="Enter your drop-off"
+                        class="form-fields"
+                      />
+                      <img
+                        src="./assets/location.svg"
+                        alt=""
+                        class="input-field-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="row row-cols-1 row-cols-md-2 gx-3 gy-4">
+                      <div class="col">
+                        <label for="" class="form-input-lable"
+                          >Pick Up Date</label
+                        >
+                        <div class="input-wrapper">
+                          <input
+                            type="text"
+                            placeholder="mm/dd/yyyy"
+                            class="form-fields"
+                          />
+                          <img
+                            src="./assets/calender.svg"
+                            alt=""
+                            class="input-field-icon"
+                          />
+                        </div>
+                      </div>
+                      <div class="col">
+                        <label for="" class="form-input-lable">Time</label>
+                        <div class="input-wrapper">
+                          <input
+                            type="text"
+                            placeholder="00:00"
+                            class="form-fields"
+                          />
+                          <img
+                            src="./assets/time.svg"
+                            alt=""
+                            class="input-field-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="row row-cols-1 row-cols-md-2 gx-3 gy-4">
+                      <div class="col">
+                        <label for="" class="form-input-lable"
+                          >Return Date</label
+                        >
+                        <div class="input-wrapper">
+                          <input
+                            type="text"
+                            placeholder="mm/dd/yyyy"
+                            class="form-fields"
+                          />
+                          <img
+                            src="./assets/calender.svg"
+                            alt=""
+                            class="input-field-icon"
+                          />
+                        </div>
+                      </div>
+                      <div class="col">
+                        <label for="" class="form-input-lable">Time</label>
+                        <div class="input-wrapper">
+                          <input
+                            type="text"
+                            placeholder="00:00"
+                            class="form-fields"
+                          />
+                          <img
+                            src="./assets/time.svg"
+                            alt=""
+                            class="input-field-icon"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <label for="" class="form-input-lable">Luggage</label>
+                    <div class="input-wrapper">
+                      <input
+                        type="text"
+                        placeholder="Luggage"
+                        class="form-fields"
+                      />
+                      <img
+                        src="./assets/laguage.svg"
+                        alt=""
+                        class="input-field-icon"
+                      />
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="text-center">
+                      <button class="submit-btn-form mt-5 w-100">
+                        Book Your Taxi
+                        <span class="ms-2">
+                          <img src="./assets/arrow.svg" alt="" />
+                        </span>
+                      </button>
+                    </div>
+                  </div>
                 </div>
               </form>
             </div>
